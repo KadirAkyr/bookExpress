@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const url = "mongodb://localhost:27017/books-db";
+const url = "mongodb://localhost:27017/filmTracker-db";
 
 const options = {
   useNewUrlParser: true,
