@@ -1,6 +1,8 @@
+const config = require("../config");
 const mongoose = require("mongoose");
 
-const url = "mongodb://localhost:27017/books-db";
+// const url = config.mongoURI[process.env.NODE_ENV || "prod"];
+const url = config.mongoURI.local;
 
 const options = {
   useNewUrlParser: true,
